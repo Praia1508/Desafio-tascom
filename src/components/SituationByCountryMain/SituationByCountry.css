@@ -1,0 +1,27 @@
+
+.situation-by-country {
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.situation-by-country-head { 
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;    
+}
+
+.situation-by-country-head h2 {
+    color: #003838;
+}
+
+.country-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+

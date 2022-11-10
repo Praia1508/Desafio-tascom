@@ -1,0 +1,145 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 197px;
+}
+
+.global-situation {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.updated-status {
+    position: absolute;
+    bottom: 5px;
+    font-weight: 500;
+    font-size: 8px;
+    color: #003838;
+}
+
+.updated-status span {
+    color: #53C8A4;
+}
+
+.global-situation-head {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.global-situation-head p {
+    font-size: 12px;
+}
+
+.global-situation-right-content{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.global-situation-right-content p{
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    justify-content: center;
+}
+
+.global-situation-left-content {
+    display: flex;
+    gap: 12px;
+    padding: 8px;
+    color: #003838;
+    text-align: start;
+}
+
+.number-cases {
+    text-align: center;
+    margin-top: 41px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.total-confirmeds {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.new-cases {
+    margin-top: 41px;
+}
+
+.global-situation-left-content .new-cases  #green {
+    font-size: 9px;
+}
+
+.global-situation-left-content h3 {
+    font-size: 26px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    color: #003838;
+    margin-bottom: 10px;
+}
+
+.verticalSeparator {
+    height: 228px;
+    width: 1px;
+    border: 1px solid rgba(83, 200, 164, 0.13);
+    margin: 0 12px;
+}
+
+.horizontalSeparator {
+    height: 1px;
+    width: 100%;
+    border: 1px solid rgba(83, 200, 164, 0.13);
+}
+
+#global-situation-card {
+    padding: 9px 30px;
+    border: 1px solid rgba(83, 200, 164, 0.5);
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+}
+
+#global-situation-card p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    font-variant: small-caps;   
+}
+
+
+.global-situation h2 {
+    font-style: normal;
+    font-weight: 700;
+    color: #003838;
+}
+
+
+#green {
+    color: #53C8A4
+}
+
+
+

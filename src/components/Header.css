@@ -1,0 +1,50 @@
+.header {
+    background: url(../assets/Slide-Back.svg), linear-gradient(268.2deg, rgba(0, 0, 0, 0.9) 24.89%, rgba(0, 56, 56, 0.9) 72.94%);
+    top: 0px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header #elements-header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    top: 15%;
+    letter-spacing: .3px;
+    color: #FFFFFF;
+  }
+  
+  .header p {
+    font-style: normal;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+  }
+  
+  .header #green {
+    color: #53C8A4;
+  }
+  
+  .header h1 {
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 5px;
+    margin: .5px;
+  
+  }
+  
+  .header h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+  }
+  
+  body {
+    background-color: #E5E5E5;
+  }
